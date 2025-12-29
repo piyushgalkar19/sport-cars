@@ -1,0 +1,46 @@
+
+body {
+    background:white;
+    color: white;
+}
+
+header {
+    padding: 30px 20px;
+color:white;
+    background:url(https://www.shutterstock.com/image-illustration/fast-ride-on-racing-track-260nw-2486053041.jpg);
+background-repeat:no-repeat;
+background-size:contain;
+background-attachment:fixed;
+}
+.container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+}
+.card {
+    background:black;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.card:hover {
+        box-shadow:0 20px 90px green;   
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card h3 {
+    padding: 15px 0;
+    font-size: 22px;
+    letter-spacing: 1px;
+    background:black;
+}
+
